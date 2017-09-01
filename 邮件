@@ -1,0 +1,9 @@
+2017-9-1
+
+用ifconfig命令，只有lo，没有eth0的解决方案
+
+用到的命令：service network restart
+           service iptables stop
+           ifconfig -a
+           ifconfig eth-0 up
+修改文件：/etc/sysconfig/network-scripts/ifcfg-eth0 文件， 把ONBOOT=no 改为 ONBOOT=yes
