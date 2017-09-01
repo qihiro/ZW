@@ -9,3 +9,4 @@
            ls 目录名
            cd 目录名
 修改文件：/etc/sysconfig/network-scripts/ifcfg-eth0 文件， 把ONBOOT=no 改为 ONBOOT=yes
+访问地址：http://xxx.xxx.xxx.xxx/saadmin/      http://xxx.xxx.xxx.xxx/
