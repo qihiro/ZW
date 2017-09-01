@@ -6,4 +6,6 @@
            service iptables stop
            ifconfig -a
            ifconfig eth-0 up
+           ls 目录名
+           cd 目录名
 修改文件：/etc/sysconfig/network-scripts/ifcfg-eth0 文件， 把ONBOOT=no 改为 ONBOOT=yes
