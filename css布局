@@ -24,6 +24,7 @@ http://zh.learnlayout.com/
 
  vertical-align 
  
+ http://www.ruanyifeng.com/blog/2015/07/flex-examples.html
  设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。
   display: flex;|display: inline-flex
 容器属性：
