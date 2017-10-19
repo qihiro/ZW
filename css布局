@@ -1,0 +1,27 @@
+## CSS 布局 
+---------------------
+http://zh.learnlayout.com/
+.clearfix {
+  overflow: auto;
+}
+
+.after-box {
+  clear: left;
+}
+
+ box-sizing: border-box; 
+ 
+ max-width
+ 
+ display: inline-block;
+ 
+
+ 
+ .column {
+  column-count: 3;
+  column-gap: 1em;
+}
+
+ vertical-align 
+ 
+ flex
